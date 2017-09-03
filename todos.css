@@ -1,0 +1,39 @@
+
+.link {
+  fill: none;
+  stroke: rgba(102, 102, 102, 0.82);
+  stroke-width: 1px;
+}
+
+.link.type-of {
+  stroke: green;
+}
+
+.link.has-a , .link.is-a {
+  stroke-dasharray: 0,2 1;
+}
+marker{
+  fill:black;
+}
+circle , rect{
+  fill: #ccc;
+  stroke: #333;
+  position: relative;
+}
+.circle_developer{
+    fill:#4285f4 !important;
+}
+.circle_nondeveloper{
+    fill:#fbbc05 !important;
+}
+text {
+  font: 10px sans-serif;
+  pointer-events: none;
+  stroke: #666;
+}
+.legend {
+   font-size: 12px;
+ }
+ rect {
+   stroke-width: 2;
+ }

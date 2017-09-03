@@ -1,0 +1,1041 @@
+{
+    "entities" :[
+        {
+            "id" : "1",
+            "name": "currentClaim",
+            "dname": "Current Claim",
+            "category":"developer",
+            "attributes" : [
+            ]
+        },
+        {
+            "id" : "2",
+            "name": "trackingEntity",
+            "dname": "Tracking Entity",
+            "category":"developer",
+            "attributes" : [
+                {
+                    "name" : "UN",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "q",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "claim_Type",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "DCN",
+                    "type" : "string",
+                    "values" : []
+                }
+            ]
+        },
+        {
+            "id" : "3",
+            "name": "subscriber",
+            "dname": "Subscriber",
+            "category":"developer",
+            "attributes" : [
+                {
+                    "name" : "ID",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "GRP",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "CONT",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "firstName",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "MI",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "lastName",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "ADR",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "CTY",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "ST",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "ZIP",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "CO",
+                    "type" : "string",
+                    "values" : []
+                }
+            ]
+        },
+        {
+            "id" : "4",
+            "name": "patient",
+            "dname": "Patient",
+            "category":"developer",
+            "attributes" : [
+                {
+                    "name" : "MC",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "firstName",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "MI",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "lastName",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "BD",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "SEX",
+                    "type" : "string",
+                    "values" : ["M", "F", "Other"]
+                }
+            ]
+        },
+        {
+            "id" : "5",
+            "name": "provider",
+            "dname": "Provider",
+            "category":"developer",
+            "attributes" : [
+                {
+                    "name" : "TAX_ID",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "PROV",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "l",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "PZ",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "ADR",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "CTY",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "ST",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "ZIP",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "MCA",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "PROV_LICNO",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "PROV_2NDNAME",
+                    "type" : "string",
+                    "values" : []
+                }
+            ]
+        },
+        {
+            "id" : "5",
+            "name": "claimInfo",
+            "dname": "Claim Info",
+            "category":"nondeveloper",
+            "attributes" : [
+                {
+                    "name" : "WC",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "REF",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "INJ",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "ILL",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "AUTH",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "ATTACH",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "DX",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "SP",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "IZ",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "PMG_IPA",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "AUTH_NUM",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "MR_NUM",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "COB",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "TEXT",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "SPAYEE",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "MRU",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "ERS",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "LPPDTE",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "FRQ",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "INT_PAID",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "POP_UP_ICON",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "ACT",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "PEND",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "RTE",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "EXT",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "n_DCN",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "edit_Code",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "TOT_CHG",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "PRV",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "c_R",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "l_R",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "ALLOW",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "WRTOFF",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "DEDUCT",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "CO_PAY",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "RJCTED",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "b_PAY",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "MM_PAY",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "PY",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "NOA",
+                    "type" : "string",
+                    "values" : []
+                }
+
+            ]
+        },
+        {
+            "id": "6",
+            "name": "currentLine",
+            "dname": "currentLine",
+            "category":"nondeveloper",
+            "attributes": [
+                {
+                    "name" : "LN",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "FROM",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "THRU",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "PT",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "PROC",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "MD",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "DX",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "BILLED_AMT",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "TT",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "UO",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "SVC",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "NEG_AMT",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "RC",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "s",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "DATE",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "DED",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "percentage",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "s_L",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "TY_WRITEOFF",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "WRITEOFF",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "TY_DEDUCT",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "DEDUCT",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "TY_OTHER",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "OTHER",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "TY_CO_PAY",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "CO_PAY",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "TY_REG_OTH",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "REG_OTH",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "PAY",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "TY_HC",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "HC",
+                    "type" : "string",
+                    "values" : []
+                }
+            ]
+        },
+        {
+            "id" : "7",
+            "name": "DMELine",
+            "dname": "DME Line Item",
+            "category":"developer",
+            "attributes" : [
+                {
+                    "name" : "DCN",
+                    "type" : "string",
+                    "values" : []
+                },
+
+                {
+                    "name" : "LN",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "MD",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "MAmount",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "SPI_PAGE_NO",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "PPI_SVC_LN",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "text",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "ptd",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "SPI_LN",
+                    "type" : "string",
+                    "values" : []
+                }
+            ]
+        },
+        {
+            "id" : "8",
+            "name": "nonDMELine",
+            "dname": "Non DME Line Item",
+            "category":"nondeveloper",
+            "attributes" : [
+                {
+                    "name" : "DCN",
+                    "type" : "string",
+                    "values" : []
+                },
+
+                {
+                    "name" : "LN",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "SPI_PAGE_NO",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "PPI_SVC_LN",
+                    "type" : "string",
+                    "values" : []
+                }
+            ]
+        },
+        {
+            "id" : "9",
+            "name": "SPIScreen",
+            "dname": "Special Instruction",
+            "category":"nondeveloper",
+            "attributes" : [
+                {
+                    "name" : "PURGE_DATA",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "MBR_NAME",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "SUB_NAME",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "SELECTION",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "LGCY_IND",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "LN",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "TYPE",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "EFF_DATE",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "END_DATE",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "RC",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "DESCRIPTION",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "DOB",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "UPT_ID",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "TRM_CODE",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "EVENT_CODE",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "NSF_CTR",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "ONSET_ACC_DT",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "UPIN",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "DX_FROM",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "DX_TO",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "ICD_VRN",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "XWALK",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "CLASSIFICATION_CODE",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "PROV_ID",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "SC",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "PCP_NPI",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "PROC_TO",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "MOD",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "RVNCD_FROM",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "RVNCD_TO",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "PROV_SPC",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "PAR",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "OLD_HICN",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "NEW_HICN",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "TEXT",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "HIX_HCID",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "SENDER_ID",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "PAGE_NO",
+                    "type" : "string",
+                    "values" : []
+                }
+            ]
+        },
+        {
+            "id" : "10",
+            "name": "PPILine",
+            "dname": "Professional Pricing Inquiry",
+            "category":"developer",
+            "attributes" : [
+                {
+                    "name" : "TAX_ID",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "PROC",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "MD",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "UO",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "CX",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "BILLED",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "ALLOWED",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "SVC_LN",
+                    "type" : "string",
+                    "values" : []
+                }
+            ]
+        },
+        {
+            "id" : "11",
+            "name": "outputMessage",
+            "dname": "Output",
+            "category":"nondeveloper",
+            "attributes" : [
+                {
+                    "name" : "ACT",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "DCN",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "ITEM_NUM",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "info",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "output",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "purchaseAmount",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "payable",
+                    "type" : "boolean",
+                    "values" : []
+                },
+                {
+                    "name" : "updateDate",
+                    "type" : "boolean",
+                    "values" : []
+                },
+                {
+                    "name" : "lineNumber",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "modifier",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "isDME",
+                    "type" : "boolean",
+                    "values" : []
+                },
+                {
+                    "name" : "text",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "standardText",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "procedureCode",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "provider",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "SPI_PAGE_NO",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "PPI_SVC_LN",
+                    "type" : "string",
+                    "values" : []
+                },
+                {
+                    "name" : "SPI_LN",
+                    "type" : "string",
+                    "values" : []
+                }
+            ]
+        },
+        {
+            "id" : "12",
+            "name": "editCode",
+            "dname": "Edit Codes",
+            "category":"nondeveloper",
+            "attributes" : [
+                {
+                    "name" : "currentEditCode",
+                    "type" : "string",
+                    "values" : []
+                }
+            ]
+        }
+    ],
+    "relationships" : [
+        {
+            "type": "part-of",
+            "source_id": "2",
+            "target_id": "1"
+        },
+        {
+            "type": "part-of",
+            "source_id": "3",
+            "target_id": "1"
+        },{
+            "type": "part-of",
+            "source_id": "4",
+            "target_id": "1"
+        },{
+            "type": "part-of",
+            "source_id": "5",
+            "target_id": "1"
+        },{
+            "type": "part-of",
+            "source_id": "6",
+            "target_id": "1"
+        }
+
+    ]
+}
